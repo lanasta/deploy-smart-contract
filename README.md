@@ -10,14 +10,13 @@ As blockchain technology continues to flourish, companies are moving towards bui
 - MetaMask Wallet: Make sure you have some Gorli Test Network ETH in your MetaMask Wallet before the workshop
   * Install Metamask as a browser extension – use Chrome or Firefox. 
   * Make sure the “Show test networks” setting under “Advanced” is set to on.  
-   ![alt text](screenshots/showTestNetworks.png "MetaMask Show Test Networks")
+  <img src="screenshots/showTestNetworks.png" width="300">
   * Switch to the Görli Testnet network in your MetaMask wallet. 
-  ![alt text](screenshots/testNetworks.png "MetaMask Test Networks")
+    <img src="screenshots/testNetworks.png" width="300">
   * Use a Goerli Faucet to request some funds. Tutorial: https://www.youtube.com/watch?v=nsAuqfAQCag, Goerli Faucets: https://goerli-faucet.mudit.blog/ or https://goerli-faucet.pk910.de/
 - Infura: Sign up for a free account and create a Gorli Network endpoint
   
-  
-![alt text](screenshots/infura.png "Gorli Network endpoint on Infura")
+  <img src="screenshots/infura.png" width="800">
 
 
 
