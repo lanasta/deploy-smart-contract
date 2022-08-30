@@ -12,6 +12,9 @@ As blockchain technology continues to flourish, companies are moving towards bui
   * Make sure the “Show test networks” setting under “Advanced” is set to on.  
   * Switch to the Görli Testnet network in your MetaMask wallet. 
   * Use a Goerli Faucet to request some funds. Tutorial: https://www.youtube.com/watch?v=nsAuqfAQCag, Goerli Faucets: https://goerli-faucet.mudit.blog/ or https://goerli-faucet.pk910.de/
+- Infura: Sign up for a free account and create a Gorli Network endpoint
+  
+  
 
 
 
