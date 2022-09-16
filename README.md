@@ -26,5 +26,6 @@ As blockchain technology continues to flourish, companies are moving towards bui
 - [Web 3.0 Tutorial: Deploy & Verify Smart Contract using Hardhat - Ethereum (Testnet & Mainnet)](https://www.youtube.com/watch?v=0cIkcFspdaE)
 - [Intro to Solidity](https://www.geeksforgeeks.org/introduction-to-solidity/)
 - [Solidity Variables](https://www.tutorialspoint.com/solidity/solidity_variables.htm)
+- [Contract ABIs](https://docs.soliditylang.org/en/v0.5.3/abi-spec.html)
 
 
