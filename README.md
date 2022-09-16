@@ -20,6 +20,11 @@ As blockchain technology continues to flourish, companies are moving towards bui
   <img src="screenshots/infura.png" width="800">
 
 
-
+# Additional learning materials
+- [Intro to Ethereum and Smart Contracts](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
+- [Intro to Decentralized Applications(Dapps)](https://ethereum.org/en/developers/docs/dapps/)
+- [Web 3.0 Tutorial: Deploy & Verify Smart Contract using Hardhat - Ethereum (Testnet & Mainnet)](https://www.youtube.com/watch?v=0cIkcFspdaE)
+- [Intro to Solidity](https://www.geeksforgeeks.org/introduction-to-solidity/)
+- [Solidity Variables](https://www.tutorialspoint.com/solidity/solidity_variables.htm)
 
 
