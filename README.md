@@ -29,5 +29,5 @@ As blockchain technology continues to flourish, companies are moving towards bui
 - [Intro to Solidity](https://www.geeksforgeeks.org/introduction-to-solidity/)
 - [Solidity Variables](https://www.tutorialspoint.com/solidity/solidity_variables.htm)
 - [Contract ABIs](https://docs.soliditylang.org/en/v0.5.3/abi-spec.html)
-
-
+- [Blockchain Use Cases - Banking & Finance](https://www.kaleido.io/industries/banking-and-finance)
+- [Kaleido Blockchain Customer Stories -- includes WWF, CDC](https://www.kaleido.io/customer-stories)
