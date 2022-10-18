@@ -2,7 +2,8 @@ var Web3 = require('web3');
 const Provider = require('@truffle/hdwallet-provider');
 
 var SmartContractAddress = process.env.GOERLI_SMART_CONTRACT_ADDRESS || "0x0C6d6339F2f68ba84e3F4b8Fd2d11515A028dd40";
-var CompiledContract = require('./artifacts/contracts/LockAndWithdrawHalf.sol/LockAndWithdrawHalf.json')
+//This file is gitignored, so you can manually copy paste the ABI array into the SmartContractABI variable and delete this variable if an error comes up
+var CompiledContract = require('./artifacts/contracts/LockAndWithdrawHalf.sol/LockAndWithdrawHalf.json') 
 var SmartContractABI = CompiledContract.abi;
 var address = process.env.GOERLI_ACCOUNT_ADDRESS;
 var privatekey = process.env.PRIVATE_KEY_GOERLI;
