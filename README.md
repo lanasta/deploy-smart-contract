@@ -26,6 +26,12 @@ As blockchain technology continues to flourish, companies are moving towards bui
 
 ```export PRIVATE_KEY_GOERLI=<Copy and paste your MetaMask wallet private key>```
 
+- If you'd like to test interacting with your smart contract from a Node application, modify the contract address in `demo/interact.js`, and please set the following environment variable.
+
+```export GOERLI_ACCOUNT_ADDRESS=<Copy and paste your MetaMask Goerli account address>```
+
+To run the script, execute ```node interact.js```
+
 
 # Additional learning materials
 - [Intro to Ethereum and Smart Contracts](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
