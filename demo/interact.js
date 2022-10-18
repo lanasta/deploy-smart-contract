@@ -16,7 +16,8 @@ const withdrawMyFunds = async () => {
     var owner = await myContract.methods.owner().call();
     var unlockTime = await myContract.methods.unlockTime().call();
 
-    console.log("Owner and unlock time", owner, unlockTime);
+    console.log("Owner address", owner);
+    console.log("Unlock time",  new Date(unlockTime * 1000).toLocaleString());
   
     console.log("Initial wallet balance", await getCurrentBalanceInETH(), 'ETH');
     var receipt = await myContract.methods.withdrawHalf().send({ from: address });
