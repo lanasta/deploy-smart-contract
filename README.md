@@ -20,6 +20,11 @@ As blockchain technology continues to flourish, companies are moving towards bui
 - [Infura](https://infura.io/login): Sign up for a free account and create a Goerli Network endpoint
   
   <img src="screenshots/infura.png" width="800">
+- Set environment variables that are needed in the Hardhat config file:
+
+```export INFURA_URL_GOERLI=<Copy and paste the network endpoint URL from Infura>```
+
+```export PRIVATE_KEY_GOERLI=<Copy and paste your MetaMask wallet private key>```
 
 
 # Additional learning materials
