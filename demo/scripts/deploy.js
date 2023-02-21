@@ -11,15 +11,15 @@ async function main() {
   const THREE_MINUTES_IN_SECS = 3 * 60;
   const unlockTime = currentTimestampInSeconds + THREE_MINUTES_IN_SECS;
 
-  const lockedAmount = hre.ethers.utils.parseEther("0.3");
+  const lockedAmount = hre.ethers.utils.parseEther("0.01");
 
-  const Lock = await hre.ethers.getContractFactory("LockAndWithdrawHalf");
-  const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+  const Demo = await hre.ethers.getContractFactory("DeveloperWeekDemo");
+  const demo = await Demo.deploy(unlockTime, { value: lockedAmount });
 
-  await lock.deployed();
+  await demo.deployed();
 
   console.log(
-    `Lock with 0.3 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
+    `Lock with 0.01 ETH and unlock timestamp ${unlockTime} deployed to ${demo.address}`
   );
 }
 
