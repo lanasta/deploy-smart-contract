@@ -16,7 +16,7 @@ As blockchain technology continues to flourish, companies are moving towards bui
   * <img src="screenshots/showTestNetworks.png" width="300">
   * Switch to the Görli Testnet/ Polygon Mumbai network in your MetaMask wallet. 
   * <img src="screenshots/testNetworks.png" width="300">
-  * Use a Goerli/Polygon Mumbai Faucet to request some funds. [Watch the tutorial](https://www.youtube.com/watch?v=nsAuqfAQCag). Faucets can be found [here](https://goerli-faucet.mudit.blog/) or [here](https://goerli-faucet.pk910.de/)
+  * Use a Goerli/Polygon Mumbai Faucet to request some funds. [Watch the tutorial](https://www.youtube.com/watch?v=nsAuqfAQCag). Faucets can be found [here](https://goerli-faucet.mudit.blog/) or [here](https://goerli-faucet.pk910.de/) for Goerli and [here](https://faucet.polygon.technology/) for Polygon Mumbai.
   * <img src="screenshots/goerliPowFaucet.png" width="300">
 - [Infura for Goerli](https://infura.io/login): Sign up for a free account and create a Goerli Network endpoint  
   <img src="screenshots/infura.png" width="800">
