@@ -9,26 +9,39 @@ As blockchain technology continues to flourish, companies are moving towards bui
   * [Setup on Mac](https://progate.com/docs/nodejs-env)
   * You should be able to run `node` and `npm` commands from your Terminal
 - Hardhat: `npm install --save-dev hardhat`
-- MetaMask Wallet: Make sure you have some Goerli Test Network ETH in your MetaMask Wallet before the workshop
+- You could choose to deploy to Goerli or Polygon Mumbai, adjust your settings/environment variables accordingly.
+- MetaMask Wallet: Make sure you have some Goerli Test Network ETH or Polygon Mumbai MATIC in your MetaMask Wallet before the workshop
   * Install Metamask as a browser extension – use Chrome or Firefox. 
   * Make sure the “Show test networks” setting under “Advanced” is set to on.  
   * <img src="screenshots/showTestNetworks.png" width="300">
-  * Switch to the Görli Testnet network in your MetaMask wallet. 
+  * Switch to the Görli Testnet/ Polygon Mumbai network in your MetaMask wallet. 
   * <img src="screenshots/testNetworks.png" width="300">
-  * Use a Goerli Faucet to request some funds. [Watch the tutorial](https://www.youtube.com/watch?v=nsAuqfAQCag). Faucets can be found [here](https://goerli-faucet.mudit.blog/) or [here](https://goerli-faucet.pk910.de/)
+  * Use a Goerli/Polygon Mumbai Faucet to request some funds. [Watch the tutorial](https://www.youtube.com/watch?v=nsAuqfAQCag). Faucets can be found [here](https://goerli-faucet.mudit.blog/) or [here](https://goerli-faucet.pk910.de/)
   * <img src="screenshots/goerliPowFaucet.png" width="300">
-- [Infura](https://infura.io/login): Sign up for a free account and create a Goerli Network endpoint
-  
+- [Infura for Goerli](https://infura.io/login): Sign up for a free account and create a Goerli Network endpoint  
   <img src="screenshots/infura.png" width="800">
+- [Alchemy for Polygon Mumbai](https://alchemy.com): Sign up for a free account and create a Polygon Mumbai endpoint
+  * <img src="screenshots/polygonmumbairpc.png" width="300">
 - Set environment variables that are needed in the Hardhat config file:
 
 ```export INFURA_URL_GOERLI=<Copy and paste the network endpoint URL from Infura>```
 
 ```export PRIVATE_KEY_GOERLI=<Copy and paste your MetaMask wallet private key>```
 
+or
+
+```export ALCHEMY_URL_MUMBAI=<Copy and paste the Polygon Mumbai network endpoint URL from Alchemy>```
+
+```export PRIVATE_KEY_MUMBAI=<Copy and paste your MetaMask wallet private key>```
+
 - If you'd like to test interacting with your smart contract from a Node application, modify the contract address in `demo/interact.js`, and please set the following environment variable.
 
 ```export GOERLI_ACCOUNT_ADDRESS=<Copy and paste your MetaMask Goerli account address>```
+
+or
+
+```export MUMBAI_ACCOUNT_ADDRESS=<Copy and paste your MetaMask Polygon Mumbai account address>```
+
 
 To run the script, execute ```node interact.js```
 
