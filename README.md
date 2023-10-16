@@ -1,3 +1,5 @@
+ATO Session contract can be found here :) https://sepolia.etherscan.io/address/0x4E47ABc2d383e2ecF189A026A6C378a34EF94658#code
+
 # Deploy your first smart contract
 
 As blockchain technology continues to flourish, companies are moving towards building their applications on-chain using smart contracts. In this workshop, we will discuss how Ethereum smart contracts work and go over related concepts like gas fees, the Ethereum Virtual Machine (EVM), customizable event classes, wallets and identities, visualization tools, and more. We will then get familiar with the Solidity programming language and write a simple smart contract together. Afterward, we will deploy the smart contract to an Ethereum test network through the latest Ethereum development tools like Hardhat and the MetaMask wallet. After we test some interactions with our deployed smart contract, you’ll feel empowered to write, test, and deploy your own smart contract to bring blockchain to your use case.
