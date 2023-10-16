@@ -12,7 +12,7 @@ As blockchain technology continues to flourish, companies are moving towards bui
 - You could choose to deploy to Sepolia or Polygon Mumbai, adjust your settings/environment variables accordingly.
 - MetaMask Wallet: Make sure you have some Sepolia Test Network ETH or Polygon Mumbai MATIC in your MetaMask Wallet before the workshop
   * Install Metamask as a browser extension – use Chrome or Firefox. 
-  * Make sure the “Show test networks” setting under “Advanced” is set to on.  
+  * Click on the icon on the top left, and make sure the “Show test networks” setting under “Advanced” is set to on.  
   * Switch to the Sepolia Testnet/ Polygon Mumbai network in your MetaMask wallet. 
   
   <img src="screenshots/showTestNetworks.png" width="300">
@@ -25,7 +25,7 @@ As blockchain technology continues to flourish, companies are moving towards bui
 - [Alchemy for Polygon Mumbai](https://alchemy.com): Sign up for a free account and create a Polygon Mumbai endpoint
   
   <img src="screenshots/polygonmumbairpc.png" width="300">
-  
+
 - Set environment variables that are needed in the Hardhat config file:
 
 ```export INFURA_URL_SEPOLIA=<Copy and paste the network endpoint URL from Infura>```
