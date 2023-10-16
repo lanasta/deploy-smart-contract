@@ -1,7 +1,7 @@
 var Web3 = require('web3');
 const Provider = require('@truffle/hdwallet-provider');
 
-var SmartContractAddress = process.env.GOERLI_SMART_CONTRACT_ADDRESS || "0x3bdb8a61100A006a0ef0Af338eF1008E7d343348";
+var SmartContractAddress = process.env.SEPOLIA_SMART_CONTRACT_ADDRESS || "0x3bdb8a61100A006a0ef0Af338eF1008E7d343348";
 var CompiledContract = require('../artifacts/contracts/DeveloperWeekDemo.sol/DeveloperWeekDemo.json')
 var SmartContractABI = CompiledContract.abi;
 var address = process.env.MUMBAI_ACCOUNT_ADDRESS;

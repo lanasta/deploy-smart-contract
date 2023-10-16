@@ -9,8 +9,8 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY_MUMBAI]
     },
     goerli: {
-      url: process.env.INFURA_URL_GOERLI,
-      accounts: [process.env.PRIVATE_KEY_GOERLI]
+      url: process.env.INFURA_URL_SEPOLIA,
+      accounts: [process.env.PRIVATE_KEY_SEPOLIA]
     }
   }
 };
